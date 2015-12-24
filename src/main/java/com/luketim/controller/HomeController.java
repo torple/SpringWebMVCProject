@@ -15,4 +15,9 @@ public class HomeController {
     public static String test() {
         return "test";
     }
+
+    @RequestMapping(value = "/secondTest")
+    public static String secondTest() {
+        return "test";
+    }
 }
